@@ -1,0 +1,5 @@
+name,cascade,chans,sens_chans,epochs,best_valloss,ssim_full,ssim_bbox,combined,status,finished_at
+varnet_c4_ch9_sc8,4,9,8,12,0.1079,0.9160,0.9092,0.9126,ok,2026-07-10T18:33:26Z
+varnet_c4_ch12_sc8,4,12,8,12,0.108,0.9151,0.9074,0.9113,ok,2026-07-11T07:34:22Z
+varnet_c6_ch9_sc8,6,9,8,12,0.1087,0.9163,0.9080,0.9122,ok,2026-07-11T22:33:29Z
+varnet_c6_ch12_sc8,6,12,8,12,0.1078,0.9150,0.9056,0.9103,ok,2026-07-12T14:38:58Z

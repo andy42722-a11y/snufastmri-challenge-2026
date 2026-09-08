@@ -1,0 +1,4 @@
+arm,cascade,chans,sens_chans,epochs,best_valloss,ssim_full,ssim_bbox,combined_ssim,bbox_gap,delta_bbox_vs_A0,ms_per_slice,time_score,official_est,status,decision_taken,finished_at
+A0_control,4,9,8,12,0.1079,0.9160,0.9092,0.912600,-0.006800,NA,208.04,0.000933,0.913533,ok,A0 대조군 실행 중. 이후 A1과 비교.,2026-07-14T23:41:37Z
+A1_bboxweighted,4,9,8,12,0.109,0.9142,0.9073,0.910750,-0.006900,-0.001900,208.40,0.000933,0.911683,ok,A1 bbox weighting이 control 대비 +0.0010 이상인지 gate.,2026-07-15T12:24:08Z
+A2_hifreq,4,9,8,12,0.1077,0.9154,0.9074,0.911400,-0.008000,-0.001800,208.29,0.000933,0.912333,ok,A2 high-frequency가 control 대비 +0.0010 이상인지 gate.,2026-07-16T00:52:53Z
