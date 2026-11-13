@@ -8,6 +8,13 @@ GTX 1080 한 장이라는 제약 안에서 **가설–대조군–판정의 통�
 > 종료로 원본 데이터(약 153GB)와 학습된 가중치(.pt)는 포함하지 않으며, 실제 평가 코드와
 > 모델·데이터 파이프라인 코드, 라운드별 결과 수치를 담았습니다.
 
+## 코드 출처
+
+대회 측 베이스라인([LISTatSNU/FastMRI_challenge](https://github.com/LISTatSNU/FastMRI_challenge), 2026_baby_varnet_phase2 브랜치)을 바탕으로 했습니다.
+
+- 베이스라인 그대로: varnet.py, recon_eval.py, metrics.py, test_part.py, transforms.py
+- 새로 작성·수정: transforms_bbox.py, load_data_bbox.py, train_bbox.py
+
 ---
 
 ## 목차
