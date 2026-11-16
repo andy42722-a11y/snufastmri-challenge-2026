@@ -13,7 +13,8 @@ GTX 1080 한 장이라는 제약 안에서 **가설–대조군–판정의 통�
 대회 측 베이스라인([LISTatSNU/FastMRI_challenge](https://github.com/LISTatSNU/FastMRI_challenge), 2026_baby_varnet_phase2 브랜치)을 바탕으로 했습니다.
 
 - 베이스라인 그대로: varnet.py, recon_eval.py, metrics.py, test_part.py, transforms.py
-- 새로 작성·수정: transforms_bbox.py, load_data_bbox.py, train_bbox.py
+- 새로 작성·수정: transforms_bbox.py, load_data_bbox.py, train_bbox.py, round6_mask.py (Round 6 마스크 증강의 마스크 생성 로직)
+- 유실된 코드: 학습 루프(`train_part_bbox.py`)와 마스크 증강을 데이터 파이프라인에 연결한 부분은 대회 서버 종료로 남아 있지 않습니다. 연결 방식은 [Round 6 문서](docs/round-06-mask-augmentation.md)에 정리했으며, 이 저장소의 코드만으로는 학습을 그대로 재현할 수 없습니다.
 
 ## 팀 구성과 역할
 
