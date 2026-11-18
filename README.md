@@ -94,7 +94,7 @@ code/
 ├── varnet.py                     baby-VarNet 모델
 ├── test_part.py                  추론 인터페이스 (prep_volume / recon_slice)
 ├── transforms.py, transforms_bbox.py, load_data_bbox.py, train_bbox.py
-├── round6_mask.py                Round 6 마스크 증강의 마스크 생성 로직
+└── round6_mask.py                Round 6 마스크 증강의 마스크 생성 로직
 results/
 └── round1~7 결과 CSV (4분면 수치 포함)
 ```
